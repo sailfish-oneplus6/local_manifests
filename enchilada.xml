@@ -8,5 +8,5 @@
     <project path="kernel/oneplus/enchilada" name="LineageOS/android_kernel_oneplus_sdm845" revision="lineage-16.0" />
 
     <!-- Vendor Blobs -->
-    <project path="vendor/oneplus" name="OnePlusOSS/android_vendor_oneplus_SDM845" revision="oneplus6/9.0.0"/>
+    <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0"/>
 </manifest>
