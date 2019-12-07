@@ -4,9 +4,27 @@
     <project path="device/oneplus/enchilada" name="LineageOS/android_device_oneplus_enchilada" revision="lineage-16.0" />
     <project path="device/oneplus/sdm845-common" name="LineageOS/android_device_oneplus_sdm845-common" revision="lineage-16.0" />
 
+    <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
+    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
+
     <!-- LOS Kernel --> 
-    <project path="kernel/oneplus/enchilada" name="LineageOS/android_kernel_oneplus_sdm845" revision="lineage-16.0" />
+    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845" revision="lineage-16.0" />
 
     <!-- Vendor Blobs -->
-    <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0"/>
+    <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0" />
+
+    <!-- Readd AWK to fix libawk missing error -->
+    <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" groups="pdk" />
+    <!-- also fsck is needed -->
+    <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" />
+    <!-- libxz -->
+    <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" remote="aosp" />
+    <!-- Libpuffpatch -->
+    <project path="external/puffin" name="LineageOS/android_external_puffin" groups="pdk" remote="github" />
+
+    <!-- RPM stuff -->
+    <project path="rpm/"name="sailfish-oneplus6/droid-hal-enchilada" revision="hybris-16.0" />
+    <project path="hybris/droid-configs"name="sailfish-oneplus6/droid-config-enchilada" revision="hybris-16.0" />
+    <project path="hybris/droid-hal-version-enchilada"name="sailfish-oneplus6/droid-hal-version-enchilada" revision="hybris-16.0" />
 </manifest>
