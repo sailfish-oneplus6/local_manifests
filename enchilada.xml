@@ -11,8 +11,8 @@
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
 
-    <!-- LOS Kernel --> 
-    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845" revision="hybris-16.0" />
+    <!-- Modified LOS Kernel --> 
+    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845" revision="lineage-16.0" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0" />
@@ -20,6 +20,12 @@
     <!-- RPM stuff -->
     <project path="rpm/" name="sailfish-oneplus6/droid-hal-enchilada" revision="hybris-16.0" />
     <project path="hybris/droid-configs" name="sailfish-oneplus6/droid-config-enchilada" revision="hybris-16.0" />
-    <project path="hybris/droid-hal-version-enchilada" name="sailfish-oneplus6/droid-hal-version-enchilada" revision="hybris-16.0" />
+    <project path="hybris/droid-hal-version-enchilada" name="sailfish-oneplus6/droid-hal-version-enchilada" revision="hybris-16.0" />\
+
+    <!-- Extra stuff for hybris 16 hal -->
+    <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" groups="pdk" />
+    <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" />
+    <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" remote="aosp" />
+    <project path="external/puffin" name="LineageOS/android_external_puffin" groups="pdk" remote="github" />
 
 </manifest>
