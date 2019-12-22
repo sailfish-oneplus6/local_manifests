@@ -26,6 +26,11 @@
     <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" groups="pdk" />
     <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk" />
     <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" remote="aosp" />
-    <project path="external/puffin" name="LineageOS/android_external_puffin" groups="pdk" remote="github" />
+    <project path="external/puffin" name="LineageOS/android_external_puffin" groups="pdk" />
+
+    <!-- Juicy Extras! -->
+    <!-- Triambience Daemon forked from Deathmist for Oneplus 6 -->
+    <project path="hybris/mw/triambience-daemon" name="sailfish-oneplus6/triambience-daemon" revision="master" />
+    <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
 
 </manifest>
