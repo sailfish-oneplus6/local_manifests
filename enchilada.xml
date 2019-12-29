@@ -7,6 +7,9 @@
     <!-- libhybris with audio patch -->
     <project path="external/libhybris" name="sailfishos-oneplus5/libhybris" revision="master" />
 
+    <!-- Deathmist's Hybris-Installer -->
+    <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" />
+
     <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
@@ -40,5 +43,21 @@
     <!-- Triambience Daemon forked from Deathmist for Oneplus 6 -->
     <project path="hybris/mw/triambience-daemon" name="sailfish-oneplus6/triambience-daemon" revision="master" />
     <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
+
+    <!-- Extra stuff for hybris 16 hal -->
+    <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
+    <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
+    <project path="external/xz-embedded" name="platform/external/xz-embedded" remote="aosp" />
+    <project path="external/puffin" name="LineageOS/android_external_puffin" />
+
+         <!-- Juicy Extras! -->
+
+    <!-- Triambience Daemon forked from Deathmist for Oneplus 6 -->
+    <project path="hybris/mw/triambience-daemon" name="sailfish-oneplus6/triambience-daemon" revision="master" />
+    <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
+
+    <!-- Screen off gestures -->
+    <project path="hybris/mw/gesture-daemon" name="sailfishos-oneplus5/gesture-daemon" revision="master" />
+    <project path="hybris/mw/onyx-gesture-settings-plugin" name="sailfishos-oneplus5/onyx-gesture-settings-plugin" revision="master" />
 
 </manifest>
