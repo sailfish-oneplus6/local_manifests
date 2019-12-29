@@ -4,6 +4,19 @@
     <project path="device/oneplus/enchilada" name="LineageOS/android_device_oneplus_enchilada" revision="lineage-16.0" />
     <project path="device/oneplus/sdm845-common" name="sailfish-oneplus6/android_device_oneplus_sdm845-common" revision="lineage-16.0" />
 
+    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="sailfish-oneplus6/hybris-boot" revision="master"/>
+
+    <!-- hybris-patches with additions -->
+    <remove-project path="hybris-patches" name="mer-hybris/hybris-patches" />
+    <project path="hybris-patches" name="sailfish-oneplus6/hybris-patches" revision="hybris-16.0" />
+
+    <!-- Needed for nfcd-binder-plugin -->
+    <project path="hybris/mw/libncicore" name="mer-hybris/libncicore" revision="master" />
+
+    <!-- Needed for update_engine to fix dbus-constants.h missing -->
+    <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
+
     <!-- libhybris with audio patch -->
     <project path="external/libhybris" name="sailfishos-oneplus5/libhybris" revision="master" />
 
