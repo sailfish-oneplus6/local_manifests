@@ -21,7 +21,7 @@
     <project path="external/libhybris" name="sailfishos-oneplus5/libhybris" revision="master" />
 
     <!-- Deathmist's Hybris-Installer -->
-    <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" />
+    <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" revision="hybris-16.0"/>
 
     <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
@@ -32,7 +32,7 @@
     <project path="system/update_engine" name="sailfish-oneplus6/android_system_update_engine" />
 
     <!-- Modified LOS Kernel --> 
-    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845" revision="lineage-16.0" />
+    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845" revision="hybris-16.0" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0" />
@@ -47,15 +47,4 @@
     <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
     <project path="external/xz-embedded" name="platform/external/xz-embedded" remote="aosp" />
     <project path="external/puffin" name="LineageOS/android_external_puffin" />
-
-         <!-- Juicy Extras! -->
-
-    <!-- Triambience Daemon forked from Deathmist for Oneplus 6 -->
-    <project path="hybris/mw/triambience-daemon" name="sailfish-oneplus6/triambience-daemon" revision="master" />
-    <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
-
-    <!-- Screen off gestures -->
-    <project path="hybris/mw/gesture-daemon" name="sailfishos-oneplus5/gesture-daemon" revision="master" />
-    <project path="hybris/mw/onyx-gesture-settings-plugin" name="sailfishos-oneplus5/onyx-gesture-settings-plugin" revision="master" />
-
 </manifest>
