@@ -50,9 +50,6 @@
 
     <!-- Juicy Extras! -->
 
-    <!-- Deathmist's custom hybris installer to avoid issues with TWRP -->
-    <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" revision="master" />
-
     <!-- Triambience Daemon forked from Deathmist for Oneplus 6 -->
     <project path="hybris/mw/triambience-daemon" name="sailfish-oneplus6/triambience-daemon" revision="master" />
     <project path="hybris/mw/onyx-triambience-settings-plugin" name="sailfishos-oneplus5/onyx-triambience-settings-plugin" revision="master" />
