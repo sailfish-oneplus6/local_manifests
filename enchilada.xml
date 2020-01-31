@@ -17,9 +17,6 @@
     <!-- Needed for update_engine to fix dbus-constants.h missing -->
     <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
 
-    <!-- libhybris with audio patch -->
-    <project path="external/libhybris" name="sailfishos-oneplus5/libhybris" revision="master" />
-
     <!-- Deathmist's Hybris-Installer -->
     <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" revision="hybris-16.0"/>
 
