@@ -28,7 +28,7 @@
     <project path="system/update_engine" name="sailfish-oneplus6/android_system_update_engine" />
 
     <!-- Modified LOS Kernel --> 
-    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845-stable" revision="hybris-16.0" />
+    <project path="kernel/oneplus/sdm845" name="sailfish-oneplus6/android_kernel_oneplus_sdm845-stable" revision="lineage-16.0" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0" />
