@@ -33,11 +33,13 @@
     <!-- Vendor Blobs -->
     <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" revision="lineage-16.0" />
 
-    <!-- RPM stuff -->
+    <!-- RPM stuff (Unused as Jami's smort script does it for us! -->
+    <!--
     <project path="rpm/" name="sailfish-oneplus6/droid-hal-enchilada" revision="hybris-16.0" />
     <project path="hybris/droid-configs" name="sailfish-oneplus6/droid-config-enchilada" revision="hybris-16.0" />
     <project path="hybris/droid-hal-version-enchilada" name="sailfish-oneplus6/droid-hal-version-enchilada" revision="hybris-16.0" />\
-
+    -->
+    
     <!-- Extra stuff for hybris 16 hal -->
     <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
     <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" />
